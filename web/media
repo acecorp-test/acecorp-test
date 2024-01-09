@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+  <head>
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/assets/templates/styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <title> Media </title>
+
+    <style>
+      .quote {
+	  margin: 0;
+	  background: #eee;
+	  padding: 1em;
+	  border-radius: 1em;
+      }
+      .quote figcaption,
+      .quote blockquote {
+	  margin: 1em;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div id="header">
+
+      <script>
+	// based on http://www.webcreatorbox.com/en/tutorials/smartphone-snippets/#mobile8
+	var ua = navigator.userAgent.toLowerCase();
+	var isPhone = ua.indexOf("iphone") > -1 || ua.indexOf("ipad") > -1 || ua.indexOf("ipod") > -1 || ua.indexOf("android") > -1;
+	if(isPhone) {
+		document.write('<a href="/"><img class="srlLogo" width="195" height="117" alt="srlLogo.png" src="/assets/images/srlLogo.png"></a>');
+	} else {
+		document.write('<video poster="/assets/images/srlLogo.png" width="195" height="117" autoplay="" class="srlLogo"><source src="/assets/videos/srlLogo.mp4" type="video/mp4">');
+	        document.write('<a href="/"><img src="/assets/images/srlLogo.png" class="srlLogo" width="195" height="117" alt="SRL Logo" /></a>');
+	        document.write('</video>');
+	}
+      </script>
+      
+      <div id="mainmenu">
+	<ul>
+	  <li> <a href="/" title="home page">SRL</a></li>
+	  <li> <a href="/personnel" title="personnel">personnel</a></li>
+	  <li> <a href="/projects" title="research">projects</a></li>
+	  <li> <a href="/publications" title="publications">publications</a></li>
+	  <li> <a href="/faq" title="FAQ">FAQ</a></li>
+          <li class="last"> <a href="http://www.cim.mcgill.ca/srlwiki/" title="Lab Wiki">internal</a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="mainsection">
+
+    <h1> FAQ </h1>
+
+
+<ol>
+<li>
+I'm interested in your research area and would like to become 
+one of your graduate students or post-docs.
+<a href="#" onclick="$('#application').slideToggle('slow');return false">What should I do?</a>
+
+<div id="application" style="display:none">
+<p>
+<p>We welcome inquiries regarding opportunities in the lab for both graduate students and postdoctoral fellows at any time.
+  Before doing so, you should browse the <a href=../projects>web page
+descriptions</a> of some of our group's current projects, and
+<a href=https://www.mcgill.ca/gradapplicants/apply>apply to the graduate program</a> in Electrical and Computer
+Engineering at McGill University, specifying your interest in working
+with me in Human-Computer Interaction or Computer Vision as part of the
+Intelligent Systems research group.</p>
+
+<p>
+To let me know about your interest, please <a href=http://www.cim.mcgill.ca/~jer/email.html>email</a> the following to my attention:
+
+<ul>
+  <li> Cover letter outlining:</li>
+    <ol>
+      <li> Why you are interested in joining the lab</li>
+      <li> Why you are a suitable candidate for our lab</li>
+      <li> How you anticipate that you will contribute to one or more of our projects</li>
+    </ol>
+  <li> your Curriculum vitae</li>
+  <li> Professional or academic references</li>
+  <li> Relevant published papers or manuscripts in preparation (in PDF) if available</li>
+</ul>
+
+<p>
+Due to the high volume of applications we receive, we are generally limited to responding only to promising candidates.</p>
+
+<p> If you're a scholarship student (or expect to receive an NSERC or
+equivalent) and live within reasaonble proximity to Montreal, please <a
+href=http://www.cim.mcgill.ca/~jer/email.html>contact me
+directly</a> to arrange a time to visit our lab.</p>
+</div>
+</li>
+
+
+<li>
+What <a href="#" onclick="$('#qualifications').slideToggle('slow');return false">qualifications</a> do I need to become a graduate student in your group?
+
+<div id="qualifications" style="display:none">
+<p>
+First, you should have excellent grades; the department's
+minimum threshold is a CGPA of 3.0 out of 4 or a GPA of 3.2 out
+of 4.0 for the last two full-time academic years, but in general,
+we accept only students with much stronger records.  There are
+TOEFL requirements for non-Canadian applicants (GRE is optional).  See the
+<a href=https://www.mcgill.ca/ece/graduate/graduate/process>admissions requirements page</a> for details.  You should also
+posess a solid background (e.g. an undergraduate degree) in Electrical
+and Computer Engineering or Computer Science, have strong programming
+skills in C, Java, Python, or equivalent, and have excellent communication skills.</p>
+
+<p>
+For students wishing to enter the Ph.D. program, you should have
+relevant experience in a core subject area pertinent to the research
+project of interest and ideally, a number of publications.</p>
+</div>
+</li> 
+
+
+<li>
+What sort of <a href="#" onclick="$('#funding').slideToggle('slow');return false">funding</a> is available to support my studies?
+
+<div id="funding" style="display:none">
+<p>
+We provide funding to a limited number of graduate students every year
+through research grants and contracts.  However, other than cases
+where a prospective student already has a scholarship (see below), we
+are unlikely to provide support for M.Sc. students.  Qualified
+Canadian applicants are strongly encouraged to apply for
+<a href=http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/index_eng.asp>NSERC</a>
+or <a href=http://www.frqnt.gouv.qc.ca/en/bourses/index.htm>FRQNT</a>
+scholarships.  Additional scholarships are also available, based on
+academic merit.  See the the McGill Fellowships and Awards pages for
+<a href=http://www.mcgill.ca/gps/students/fellowships>graduate
+students</a> and
+<a href=http://www.mcgill.ca/gps/postdocs/fellowships>Postdocs</a>.
+All incoming Ph.D. students are also eligible for the
+<a href=https://www.mcgill.ca/engineering/students/graduate-students/funding/meda>McGill
+Engineering Doctoral Award</a> (MEDA), which is determined largely by
+excellence of your academic and research record.</p>
+
+<p>
+Ph.D. students may receive
+<a href=https://www.mcgill.ca/gps/funding/international-student-postdoctoral-funding-opportunities/dfw>differential
+fee waivers</a>, which reduce international tuition to the equivalent
+of Canadian fees.  Graduate students may also obtain some financial
+support by working a limited number of hours as Teaching
+Assistants. Further information is available from the ECE
+<a href=https://www.mcgill.ca/ece/graduate/fees>Graduate Studies Fees
+and Expenses</a> page.</p>
+</div>
+</li>
+
+
+<li>
+How do I choose a <a href="#" onclick="$('#thesis_project').slideToggle('slow');return false">thesis project</a>?
+
+<div id="thesis_project" style="display:none">
+<p>
+There are generally a number of reasonably well defined projects in
+my lab that are directly suitable for an M.Sc. or Ph.D. thesis.
+However, I encourage students to spend (at least part of) their first
+semester working on a few small projects in parallel to help decide
+what fits best with their interests.</p>
+</div>
+</li>
+
+
+
+<li>
+What <a href="#" onclick="$('#courses').slideToggle('slow');return false">courses</a> should I take as a graduate student in your group?
+
+<div id="courses" style="display:none">
+<p>
+In ECE, M.Sc. students take 18 graduate credits, typically equivalent to 6 courses.  (For
+Ph.D. students, course work, if any, is determined in consultation
+with your thesis committee.)  <b>Students should discuss their intended course selections with me, and must obtain prior supervisory approval
+if they wish to register for more than 6 credits of non-departmental courses.</b>  In general, most students in my group
+register for several courses from the following list, unless they have already taken equivalent
+graduate-level courses:</p>
+
+<ul>
+<li> ECSE 512: Digital Signal Processing I
+<li> ECSE 529: Computer and Biological Vision or COMP 558: Fundamentals of Computer Vision
+<li> COMP 646: Computational Perception 
+<li> <a href=http://www.cim.mcgill.ca/~jer/courses/hci>ECSE 542</a>: Human-Computer Interaction
+</ul>
+
+<p>
+However, that list should not be taken as a rule, apart from the Human-Computer Interaction course, which I consider pretty much mandatory for any member of our group, who has not already taken an equivalent course.
+</p>
+
+<p>
+Depending on the specific area(s) that your graduate research
+project(s) involve, you might consider specialized courses that
+provide relevant background in such areas as:
+</p>
+
+<ul>
+<li> COMP 535: Computer Networks
+<li> MUMT 620: Gestural Control of Sound Synthesis
+<li> MATH 523: Generalized Linear Models
+<li> COMP 557: Fundamentals of Computer Graphics
+<li> <a href=http://www.cim.mcgill.ca/~jer/courses/ai>ECSE 526</a>: Artificial Intelligence
+<li> COMP 521: Modern Computer Games
+<li> COMP 551: Applied Machine Learning
+<li> GLIS 629: Information Security
+</ul>
+
+<p>
+Students with a leaning toward audio applications may also consider:
+</p>
+
+<ul>
+<li> MUMT 619: Input Devices for Musical Expression
+<li> MUMT 621: Music Information, Retrieval, Acquisition, Preservation
+<li> MUMT 622: Time-Frequency and Parametric Representations of Sounds
+</ul>
+
+<p>
+There are no hard-and-fast rules for how to split your course load
+between semesters.  Some students try to get as many courses as
+possible out of the way early in their studies so that they can
+concentrate on thesis research later; others spread the load more
+evenly over three or four semesters.  Regardless, the trick is often
+dealing with scheduling constraints, as most courses are offered only once per year.
+</p>
+
+<p>
+Note that you're unlikely able to manage more than 3 courses in any one semester,
+in particular as you'll be expected to begin some preliminary thesis
+research shortly after the start of your studies.
+</p>
+
+<p>
+Keep in mind that if you're having a hard time choosing between
+ several potentially interesting options, you can always start with
+ extra courses to try them out for the first couple of weeks, and
+ then withdraw from any of them without penalty as long as you do so
+ before the <a href="http://www.mcgill.ca/importantdates/key-dates">add/drop deadline</a>.
+</p>
+
+<p>
+If you're a new M.Sc. student joining my group, you should consult
+the listing of graduate courses being offered for the coming year and
+make tentative selections before arriving at McGill.  You can revise
+this during the "course add/drop" period in the first few weeks of the
+term, in consultation with your supervisor.  Further information
+regarding the
+<a href=http://www.mcgill.ca/ece/graduate/programinfo>program
+regulations</a> is available from the department web site.</p>
+
+<p>
+Students must also register each semester for "thesis research" courses, which are simply placeholders to ensure you have enough credits to maintain full-time status.
+</p>
+
+<p>
+<b>For new graduate students whose first language is not English,</b>
+I strongly recommend you taking one of
+the <a href="http://www.mcgill.ca/graphos/courses">technical writing
+courses</a> offered by the university.  Previous students have found
+these courses immensely valuable, in particular when it comes to help
+in composing research papers and theses.</p>
+</div>
+</li>
+
+
+<li>
+Is there funding for me <a href="#" onclick="$('#conferences').slideToggle('slow');return false">to attend conferences?</a>
+
+<div id="conferences" style="display:none">
+  <p>If you have an accepted first-authored archival paper in a top-tier (or close-to-top-tier) venue in your research area, resulting from work you've carried out in the lab, I will make sure to support your travel and registration expenses to present the work at the conference.  Students can typically expect to have all reasonable expenses covered in such instances, provided that you make efforts to keep these modest, e.g., sharing hotel costs with another student, and applying for travel funding from sources such as the <a href="https://www.mcgill.ca/gps/funding/fac-staff/awards/great">GREAT award</a> or (for CIRMMT students) the <a href="https://www.cirmmt.org/research/support/travel">CIRMMT Travel Award</a>.  For conferences that are local or for which the expenses to attend are otherwise significantly reduced, we can discuss exceptions, but in general, I expect you to be attending conferences because you are publishing in the associated venue.
+</div>
+</li>
+
+  
+<li>
+How much <a href="#" onclick="$('#vacation').slideToggle('slow');return false">vacation time</a> do I have as a graduate student or post-doc?
+
+<div id="vacation" style="display:none">
+<p>
+McGill's <a href=http://coursecalendar.mcgill.ca/gradgi201011/wwhelp/wwhimpl/js/html/wwhelp.htm#href=GSGI_20102011.1.182.html>Vacation Policy</a> states that "Graduate students and Postdocs should normally be entitled to vacation leave equivalent to university holidays and an additional total of fifteen (15) working days in the year. Funded students and Postdocs with fellowships and research grant stipends taking additional vacation leave may have their funding reduced accordingly." If you are planning time away from the lab, please check first with me, and after discussion, add your planned dates of absence to the lab calendar.</p>
+</div>
+</li>
+
+
+
+<li>
+Can I carry out an <a href="#" onclick="$('#ugrad').slideToggle('slow');return false">undergraduate capstone project or honour's thesis</a> under your supervision?
+
+<div id="ugrad" style="display:none">
+<p>
+f you have strong marks, an interest in the research areas of my
+group, and an ability to learn the necessary tools quickly, I would be
+happy to consider you.  Please see the description of our ongoing and
+past <a href=../projects/>research projects</a> as many of these have
+sub-topics that are well-suited for advanced undergraduate
+students.</p>
+
+<p>
+Once you have a sense of the project(s) that interest you, please send me a brief note, with the word UNDERGRAD in the subject line, explaining why you think you or your project group are a good fit, and attach your CV(s).  That way, I'll have a better sense of your interests and background to begin the conversation before you finalize your choice.  If you are applying for one of my posted capstone projects but don't yet have a team, please let me know, and I'll try to put you in contact with other students with similar interests.
+</p>
+
+<p>
+If you undertake a project in my lab, expect to work hard, and to be
+pro-active in keeping me informed of your progress on a regular basis.
+As Josh Redel (2012-2013 president of SSMU, the Student Society of
+McGill University) noted, "To be perfectly honest, I asked you to be
+my supervisor because I knew you would be critical... I knew you would
+provide more of a challenge..."  If you're looking for an easy "A",
+please consider working with another professor.</p>
+</div>
+</li>
+
+
+
+<li>
+Can I apply for an  <a href="#" onclick="$('#intern').slideToggle('slow');return false">undergraduate research internship</a> in your lab?
+
+<div id="intern" style="display:none">
+<p>
+We accept a number of research intern students each year, often for
+the summer months, but in general, <b>cannot offer any funding</b>
+unless you qualify for an
+<a href="http://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp">NSERC
+Undergraduate Student Research Award</a>,
+McGill's <a href="http://www.mcgill.ca/engineering/sure">Summer
+Undergraduate Research in Engineering</a> program, or a
+<a href=http://www.mitacs.ca/globalink/globalink-research-internship>MITACS
+Globalink internship</a>.  Students from outside McGill who do not
+meet these criteria can apply as undergraduate research trainees
+through the procedures
+described <a href="http://www.mcgill.ca/students/records/trainees">here</a>.</p>
+
+<p>
+In general, it is helpful to <a href=http://www.cim.mcgill.ca/~jer/email>contact me</a> in advance, summarizing your interests in an internship, and including a CV describing your relevant experience.  
+</div>
+</li>
+
+
+
+<li>
+Can I conduct part of my thesis research in your lab as a <a href="#"
+onclick="$('#international').slideToggle('slow');return false">visiting
+graduate student</a> from another university?
+
+<div id="international" style="display:none">
+<p>
+If you have strong marks and have identified a research interest
+that is closely aligned with current <a href=../projects>Shared Reality Lab
+activities</a>, I would be happy to discuss your application as a
+<a href=http://www.mcgill.ca/gradapplicants/apply/process/visiting/#Graduate>graduate
+student trainee</a>.</p>
+</div>
+</li>
+
+
+<li>
+I'm applying for grad school or a job opportunity.
+
+<a href="#" onclick="$('#reflet').slideToggle('slow');return false">Can you provide a reference letter for me?</a>
+
+<div id="reflet" style="display:none">
+  <p>
+    Obtaining reference letters from your professors and supervisors is often an essential requirement for the next step of your career. However, a mediocre reference letter ("The applicant took my class and obtained a passing grade." or "I supervised this student's capstone project and they submitted their portion of the final report.") is likely to be less helpful than having no letter at all. Writing a good reference letter can easily take 1-3 hours. If you're intending to ask me at some point to provide such a reference for you, keep in mind that in order for me to justify the time investment, I need to know your work well enough, and be sufficiently impressed with your achievements. If so, the results can speak for themselves:
+  </p>
+  
+  <figure class="quote">
+    <blockquote>
+      <p>
+I've come to the end of the application process, and wanted to reach out to give a huge thank you for your support. I'm extremely excited to be starting my PhD with Stanford Bioengineering this Fall.
+      </p>
+      <p>
+	The psychosis project has been one of my favorite research experiences, and one that I took every opportunity to discuss throughout my grad school interviews. I'm so grateful I had the chance to work on it. More generally, the SRL has a culture that's really special &mdash; high-energy, passionate, and conscientious. This has helped me understand the energy and tone I want in the research group I eventually join, which is invaluable.
+      </p>
+      <p>
+So thank you again, for your support, and for the opportunity you gave me. I hope I'll get to cross paths with you and other SRL lab members many more times in the future.
+      </p>
+      <p>
+	[&hellip;]
+I actually heard yesterday that I've also been selected for the Fulbright award! There's still some final steps (i.e. approval from Fulbright board), but I officially made it through the selection process. It's hard to believe that things have worked out so well for me &mdash; I must have had some strong recommenders.
+      </p>
+    </blockquote>
+    <figcaption>
+      &mdash; Kenji Marshall <cite>(with permission)</cite>
+    </figcaption>
+  </figure>
+</div>
+
+<li>
+What <a href="#" onclick="$('#other_is_profs').slideToggle('slow');return false">other professors</a> are doing research in the Intelligent Systems area at McGill? 
+
+<div id="other_is_profs" style="display:none">
+	<p> 
+	See <a href="https://www.mcgill.ca/ece/research/intelligentsystems">Intelligent Systems</a>.
+<p>
+</div>
+</li>
+
+
+
+<li>
+What <a href="#" onclick="$('#other_hci_profs').slideToggle('slow');return false">other professors</a> are doing research in Human-Computer Interaction at McGill? 
+
+<div id="other_hci_profs" style="display:none">
+
+<ul>
+<li><a href-"http://www.mcgill.ca/music/about-us/bio/marcelo-m-wanderley">Marcelo Wanderley</a></li>
+<li><a href="http://www.mcgill.ca/sis/people/faculty/frissen">Ilja Frissen</a></li>
+<li><a href="http://www.mcgill.ca/sis/people/faculty/guastavino">Catherine Guastavino</a></li>
+<li><a href="http://www.mcgill.ca/sis/people/faculty/moffatt">Karyn Moffatt</a></li>
+</li>
+</div>
+</ol>
+
+
+<img src=../graphics/h_line.gif>
+<br>
+Last update: 7 June 2023
+
+</div>
+</body>
+</html>

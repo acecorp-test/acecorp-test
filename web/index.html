@@ -1,0 +1,661 @@
+<html><head>
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/assets/templates/slider.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.anythingslider.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.easing.1.2.js"></script>
+    <script type="text/javascript" src="/assets/js/srlhome.js"></script>
+    <title> Shared Reality Lab </title>
+  </head>
+  
+  <body>
+    <div id="header">
+
+		<!-- TODO: endscreen pictures hyperlink site -->
+
+      <script>
+	// based on http://www.webcreatorbox.com/en/tutorials/smartphone-snippets/#mobile8
+	var ua = navigator.userAgent.toLowerCase();
+	var isPhone = ua.indexOf("iphone") > -1 || ua.indexOf("ipad") > -1 || ua.indexOf("ipod") > -1 || ua.indexOf("android") > -1;
+	if(isPhone) {
+		document.write('<a href="/"><img class="srlLogo" width="195" height="117" alt="srlLogo.png" src="/assets/images/srlLogo.png"></a>');
+	} else {
+		document.write('<video poster="/assets/images/srlLogo.png" width="195" height="117" autoplay="" class="srlLogo"><source src="/assets/videos/srlLogo.mp4" type="video/mp4">');
+	        document.write('<a href="/"><img src="/assets/images/srlLogo.png" class="srlLogo" width="195" height="117" alt="SRL Logo" /></a>');
+	        document.write('</video>');
+	}
+      </script><video poster="/assets/images/srlLogo.png" width="195" height="117" autoplay="" class="srlLogo"><source src="/assets/videos/srlLogo.mp4" type="video/mp4"><a href="/"><img src="/assets/images/srlLogo.png" class="srlLogo" width="195" height="117" alt="SRL Logo"></a></video>
+      
+	  <div id="mainmenu">
+		<ul>
+		  <li> <a href="./index.html" title="home page">home</a></li>
+		  <li> <a href="./goldeneye.html" title="personnel">goldeneye</a></li>
+		  <li> <a href="./perfect-dark.html" title="perfect dark">perfect dark</a></li>
+		  <li> <a href="./open-projects.html" title="open projects">open projects</a></li>
+		  <li> <a href="./backburner.html" title="backburner">backburner</a></li>
+		  <li> <a href="./media.html" title="media">media</a></li>
+		</ul>
+	  </div>
+    </div>
+
+    <div id="mainsection">
+      <div id="contenthome">
+	<!-- <div class="anythingSlider anythingSlider-default activeSlider" style="width: 930px; height: 292px;"><div class="anythingWindow"><ul id="slider1" class="anythingBase" style="width: 11160px;"><li class="cloned panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <span href="http://ultravideo.mcgill.ca"><img src="projects/img/bwc-r.jpg" alt="Ultra-Videoconferencing"></span>
+	      <h1><span href="http://ultravideo.mcgill.ca">Ultra-Videoconferencing is our flexible, low-latency IP transport system for audio, video, and vibrosensory data.</span></h1>
+	      <p>
+		<span href="http://ultravideo.mcgill.ca">The software has been used for a range of demanding applications including live concert streaming, remote mixing, collaborative performance, distance masters classes, remote video interpreting of sign language, and rendering of a multi-screen uncompressed high-definition video "shared space".</span>
+	      </p>
+	    </div>
+	  </li>
+	  <li class="panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="https://image.a11y.mcgill.ca"><img src="projects/img/imagea11y.png" alt="IMAGE project demo"></a>
+	      <h1><a href="https://image.a11y.mcgill.ca">The IMAGE project is making internet graphics accessible through rich audio and touch.</a></h1>
+
+	      <p><a href="https://image.a11y.mcgill.ca">We use rich audio (sonification) together with the sense of touch (haptics) to provide a faster and more nuanced experience of graphics on the web.</a>
+	      </p>
+	    </div>
+	  </li>
+
+	  <li class="panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="https://www.cim.mcgill.ca/~jeffbl/mimic"><img src="https://www.cim.mcgill.ca/~jeffbl/mimic/images/2015-10-21@10-52-53.jpg" alt="pebble and smartwatch"></a>
+	      <h1><a href="https://www.cim.mcgill.ca/~jeffbl/mimic/index.html">MIMIC: Mutually Informative Mobile Implicit Communication explores what happens when two people are connected and can, for example, continuously feel each-other's motion over an extended period of time.</a></h1>
+
+	      <p><a href="https://www.cim.mcgill.ca/~jeffbl/mimic">Coupled with knowledge about a remote partner's schedule and routine, this system provides a rich new background signal to process, without ever having to look at a smartphone screen.</a>
+	      </p>
+	    </div>
+	  </li>
+
+  	  <li class="panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="https://cim.mcgill.ca/~pefortin/sweatsponse_page/sweatsponse_main.html"><img src="http://www.cim.mcgill.ca/~pefortin/sweatsponse_page/figure.png" alt="sweatsponse architecture"></a>
+	      <h1><a href="http://cim.mcgill.ca/~pefortin/sweatsponse_page/sweatsponse_main.html"> Sweatsponse is a system that employs changes in physiological signals to allow an intelligent device to adapts its communication behavior in real time based on its user's response. </a></h1>
+
+	      <p><a href="http://cim.mcgill.ca/~pefortin/sweatsponse_page/sweatsponse_main.html">The objective is to provide timely adaptations that maximize communication efficiency, while minimizing the annoyance and disruptiveness associated with today's notifications, ringtones and alerts.</a>
+	      </p>
+	    </div>
+	  </li>
+
+	  <li class="panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="http://srl.cim.mcgill.ca/~parisa/alarmstudy"><img src="projects/img/first.jpg" alt="medical alarms"></a>
+	      <h1><a href="http://srl.cim.mcgill.ca/~parisa/alarmstudy">We are designing and evaluating the performance of haptic alarms, delivered to clinicians in the high consequence environments of the hospital OR and ICU as a means of reducing the problems of volume level and alarm fatigue.</a></h1>
+	    </div>
+	  </li>
+
+	  <li class="panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="http://srl.mcgill.ca/~preev/projects.html"><img src="projects/img/danceshoes.jpg" alt="haptic dance shoes"></a>
+	      <h1><a href="http://srl.mcgill.ca/~preev/projects.html">We are designing smart footwear that provides haptic cues corresponding to both the spatial movements and the rhythm of dance.</a></h1>
+
+	      <p><a href="http://srl.mcgill.ca/~preev/projects.html">The haptic cues will be rendered on four different points on the bottoms of the feet through vibrotactile actuators. The shoes will also measure the force profile and movement dynamics by using FSR sensors and inertial measurement units, respectively.</a>
+	      </p>
+	    </div>
+	  </li>
+
+	  <li class="panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="projects/niw"><img src="projects/img/snowPersonWide-r.jpg" alt="Natural Interactive Walking"></a>
+	      <h1><a href="projects/niw">Natural Interactive Walking investigates new technologies for multimodal interaction with virtual ground surfaces.</a></h1>
+	      <p>
+		 <a href="projects/niw">This involves research into the integrated and interchangeable use of the haptic and auditory modality in floor interfaces, and for the synergy of perception and action in capturing and guiding human walking.</a>
+	      </p>
+	    </div>
+	  </li>
+
+	  <li class="panel activePage" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="projects/rter"><img src="projects/rter/media/design/1.jpg" alt="Real-Time Emergency Response"></a>
+	      <h1><a href="projects/rter">Real-Time Emergency Response (rtER) deals with the detection, observation, and assessment of situations requiring intervention by emergency responders.</a></h1>
+	      <p>
+		<a href="projects/rter">rtER offers access to high-quality "live" data that may be visualized effectively both by responders in-situ and by remote operators in dedicated control rooms. Its components will include multimodal data registration, interactive visualization capabilities, and live streaming of the integrated contents.</a>
+	      </p>
+	    </div>
+	  </li>
+
+	  <li class="panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="http://autour.mcgill.ca"><img src="projects/img/isasview.png" alt="Autour"></a>
+	      <h1><a href="http://autour.mcgill.ca">Autour is an eyes-free mobile system designed to give blind users a better sense of their surroundings.</a></h1>
+	      <p>
+		<a href="http://autour.mcgill.ca">Although other systems (e.g., Humanware's Trekker and standard GPS tools) emphasize navigation from one specific location to another, typically accomplished by explicit turn-by-turn instructions, our goal is to use ambient audio to reveal the kind of information that visual cues such as neon signs provide to sighted users. Once users notice a point of interest, additional details are available on demand.</a>
+	      </p>
+	    </div>
+	  </li>
+
+	  <li class="panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="projects/amblyopia"><img src="projects/img/i2iscreen.png" alt="Amblyopia treatment using portable display device"></a>
+	      <h1><a href="projects/amblyopia">We have developed a mobile treatment device for amblyopia, a visual disorder in which information from the good (fellow) eye dominate and suppress the information from the amblyopic eye.</a></h1>
+	      <p>
+	    </p></div>
+	  </li>
+
+	  <li class="panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <a href="http://ultravideo.mcgill.ca"><img src="projects/img/bwc-r.jpg" alt="Ultra-Videoconferencing"></a>
+	      <h1><a href="http://ultravideo.mcgill.ca">Ultra-Videoconferencing is our flexible, low-latency IP transport system for audio, video, and vibrosensory data.</a></h1>
+	      <p>
+		<a href="http://ultravideo.mcgill.ca">The software has been used for a range of demanding applications including live concert streaming, remote mixing, collaborative performance, distance masters classes, remote video interpreting of sign language, and rendering of a multi-screen uncompressed high-definition video "shared space".</a>
+	      </p>
+	    </div>
+	  </li> -->
+
+	<!-- <li class="cloned panel" style="width: 930px; height: 292px;">
+	    <div class="featurednews">
+	      <span href="https://image.a11y.mcgill.ca"><img src="projects/img/imagea11y.png" alt="IMAGE project demo"></span>
+	      <h1><span href="https://image.a11y.mcgill.ca">The IMAGE project is making internet graphics accessible through rich audio and touch.</span></h1>
+
+	      <p><span href="https://image.a11y.mcgill.ca">We use rich audio (sonification) together with the sense of touch (haptics) to provide a faster and more nuanced experience of graphics on the web.</span>
+	      </p>
+	    </div>
+	  </li></ul></div><div class="anythingControls"><a href="#" class="start-stop playing">Stop</a><ul class="thumbNav"><li class="first"><a href="#" class="panel1">1</a></li><li class=""><a href="#" class="panel2">2</a></li><li class=""><a href="#" class="panel3">3</a></li><li class=""><a href="#" class="panel4">4</a></li><li class=""><a href="#" class="panel5">5</a></li><li class=""><a href="#" class="panel6">6</a></li><li class=""><a href="#" class="panel7 cur">7</a></li><li class=""><a href="#" class="panel8">8</a></li><li class=""><a href="#" class="panel9">9</a></li><li class="last"><a href="#" class="panel10">10</a></li></ul></div></div> -->
+
+        <div class="homeCN">
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">December 24, 2023 </div>
+	    <img src="https://aavaa.com/wp-content/uploads/2023/05/StLaurentPhoto_TandemLaunch_Aavaa_FullResolution-3125cropaavaa-scaled.jpg" width="120" alt="AAVAA">
+	    <div class="CNnewslistingtitle"><a href="#">Funding for Intelligent Hearing Assistive Devices</a></div>
+	    <div class="CNnewslistingsummary">
+	      AceCorp is on break and will resume GoldenEye / Perfect Dark activity from April 2024. Happy holidays!
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">  </div>
+	    <img src="graphics/logo_medteq.jpg" width="120" alt="MEDTEQ">
+	    <div class="CNnewslistingtitle"><a href="#">More funding for IMAGE</a></div>
+	    <div class="CNnewslistingsummary">
+	      .
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">May 11, 2022</div>
+	    <img src="https://honeywell.scene7.com/is/image/honeywell/AeroBT-sky-harbor-edited(23of115)_Usability_2880x1440" width="120" alt="airspace!">
+	    <div class="CNnewslistingtitle"><a href="#">ADAIR is cleared for takeoff!</a></div>
+	    <div class="CNnewslistingsummary">
+	       <a href="http://srl.mcgill.ca/positions/adair.html">We are recruiting!</a> We are delighted with the news that our project on ADvanced Airspace Usability (ADAIR) with colleagues at École Polytechnique and Toronto Metropolitan University, and industry partners in the Canadian aviation sector has been awarded funding from NSERC and CRIAQ! 
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">March 31, 2022 </div>
+	    <img src="https://chi2022.acm.org/wp-content/uploads/2021/02/cropped-CHI-2022-Final.png" width="120" alt="CHI 2022">
+	    <div class="CNnewslistingtitle"><a href="#">Honorable Mention at CHI!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Hyejin Lee, Ruixi Jiang, Yongjae Yoo, aand Max Henry, co-authors of <a href="https://dl.acm.org/doi/10.1145/3491102.3501871">The Sound of Hallucinations</a>, which received an Honorable Mention from ACM CHI.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">March 1, 2022 </div>
+	    <img src="https://www.mcgill.ca/hbhl/files/hbhl/ignite_competition_2_800x400.png" width="120" alt="IGNITE">
+	    <div class="CNnewslistingtitle"><a href="#">More funding for IMAGE</a></div>
+	    <div class="CNnewslistingsummary">
+	      Thank you to <a href="https://www.mcgill.ca/hbhl/">HBHL</a> for the wonderful news of the positive funding decision for our submission to the <a href="https://www.mcgill.ca/hbhl/funding-opportunities/neuro-commercialization-grants/ignite">Healthy Brains, Healthy Lives Neuro Commercialization Grants</a> to support the next phase of the <a href="https://image.a11y.mcgill.ca">IMAGE Project</a> 
+	    </div>
+	  </div>
+
+<!--
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">September 14, 2021 </div>
+	    <img src="https://jolienfrancken.com/wp-content/uploads/2015/12/tumblr_inline_pk280kDu3I1qk2uon_540.jpg" width=120 alt="Dr. Fortin"/>
+	    <div class="CNnewslistingtitle"><a href="#">Congratulations Dr. Fortin!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Our hearty congratulations to Pascal, who passed his Ph.D. defence with an exceptionally strong performance... as expected.
+	    </div>
+	  </div>
+ 
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">July 17, 2021 </div>
+	    <img src="https://m.media-amazon.com/images/I/716RmzXKOdL._SL1500_.jpg" width=120 alt="It's a girl!"/>
+	    <div class="CNnewslistingtitle"><a href="#">Welcome to becoming a daddy, Pascal!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Violaine and Pascal Fortin, the proud parents of Rapha&euml;lle, born with UNIX timestamp 1626571620 at a weight of 8.8 lb.
+	    </div>
+	  </div>
+	  
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Jun 3, 2021 </div>
+	    <img src="https://www.nrf.re.kr/eng/resources/img/page/header/img-header-logo-p.png" width=120 alt="National Research Foundation of Korea"/>
+	    <div class="CNnewslistingtitle"><a href="https://www.nrf.re.kr/eng/index/">Yongjae Yoo receives NRFK Fellowship</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Dr. Yongjae Yoo, who was awarded a postdoctoral fellowship by the <a href="https://www.nrf.re.kr/eng/index">National Research Foundation of Korea</a> for 2021-22.  Yongjae will be continuing his postdoctoral research with our lab for the duration of this prestigious fellowship.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">May 10, 2021 </div>
+	    <img src="https://d35w6hwqhdq0in.cloudfront.net/transform/scale,h=220,w=220:compress/9be8ed726d171adc64780d4e45d230c1.png" width=120 alt="world haptics"/>
+	    <div class="CNnewslistingtitle"><a href="https://2021.worldhaptics.org/">Shared Reality Lab has <strike>three, four, five</strike> <em>many</em> accepted papers at the IEEE Haptics Symposium 2020</a></div>
+	    <div class="CNnewslistingsummary">
+	      Our lab members received paper acceptances for "Active Sampling for Efficient Subjective Evaluation of Tactons at Scale", "Spontaneous Conversation Using WhatsHap, a Vibrotactile Phoneme Based Messaging Platform", "Identification and Information Transfer of Multidimensional Tactons Presented by a Single Vibrotactile Actuator", plus works-in-progress papers for "Context-aware Automatic Haptic Effect Generation Algorithm for Improved Content Viewing Experience", "Multimodal Haptic Armrest for Immersive 4D Experiences", "3D Printed Tactile Illusions and Demonstrations", "Towards More Effective Data Visualization Methods Using Haptics", "Crescendo: Haptic Exploration of Scores for Novice Musicians with Dyslexia", and "CanHap 501: Learning Haptic UX Design in Remote Teams".
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">May 1, 2021 </div>
+	    <img src="https://t4.ftcdn.net/jpg/00/86/49/61/240_F_86496184_PYeEQIHCe6l8itAV15yTFvKSwMEDEx1T.jpg" width=120 alt="new members"/>
+	    <div class="CNnewslistingtitle"><a href="personnel">SRL welcomes Dr. Vishav Jyoti and Dr. Aishwari Talhan</a></div>
+	    <div class="CNnewslistingsummary">
+	      We are delighted to welcome two new postdoctoral fellows to our lab. Dr. Jyoti completed her Ph.D. in Electrical Engineering at the Center for Cognitive and Brain Sciences, Indian Institute of Technology Gandhinagar, under the supervision of Prof. Uttama Lahiri, and Dr. Talhan complted her Ph.D. in Computer Engineering at the the Haptics and VR lab of Kyung Hee University, South Korea, under the supervision of Prof. Seokhee Jeon.
+	    </div>
+	  </div>
+	  
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Feb 8, 2021 </div>
+	    <img src="https://static.xx.fbcdn.net/rsrc.php/yb/r/LuM5_oJjZsU.svg" width=120 alt="Oculus Quest"/>
+	    <div class="CNnewslistingtitle"><a href="https://www.oculus.com/quest/">Antoan approved for Oculus Quest</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Antoan Georgiev for having his latest app, Aberrant&mdash;a fitness app that is set to change the way people train in VR&mdash;approved by Oculus Quest.  Not only is Antoan the youngest developer published on the Oculus Store, but he will shortly join the elite list of developers with an app on the Quest store as well.
+	    </div>
+	  </div>
+	  
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">June 25, 2020 </div>
+	    <img src="https://2020.hapticssymposium.org/img/hs-logo.png" width=120 alt="haptics symposium"/>
+	    <div class="CNnewslistingtitle"><a href="https://www.youtube.com/watch?v=1h-9czaJmOY&t=2h23m37s">Pascal receives an Outstanding Reviewer Award from Haptics Symposium</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Pascal Fortin for the recognition of his stellar work, as he receives an Outstanding Reviewer Award from the IEEE Haptics Symposium.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Apr 20, 2020 </div>
+	    <img src="https://medcitynews.com/uploads/2017/03/GettyImages-509053702.jpg" width=120 alt="amblyopia"/>
+	    <div class="CNnewslistingtitle"><a href="https://www.novartis.com/news/media-releases/novartis-acquires-amblyotech-pursuing-novel-digital-therapy-children-and-adult-patients-%22lazy-eye%22">Our amblyopia treatment licensed to Novartis</a></div>
+	    <div class="CNnewslistingsummary">
+	      Novartis announced its acquisition of the startup, Amblyotech, to which our patented game-based treatment of amblyopia, otherwise known as "lazy eye", was licensed.  Novartis will now be pursuing the development of this technology.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Mar 1, 2020 </div>
+	    <img src="https://t4.ftcdn.net/jpg/00/86/49/61/240_F_86496184_PYeEQIHCe6l8itAV15yTFvKSwMEDEx1T.jpg" width=120 alt="new members"/>
+	    <div class="CNnewslistingtitle"><a href="personnel">SRL welcomes Dr. Yongjae Yoo</a></div>
+	    <div class="CNnewslistingsummary">
+	      We are delighted to welcome Dr. Yongjae Yoo, who joins our team as a postdoctoral fellow.  Dr. Yoo completed his Ph.D. in Computer Science and Engineering at POSTECH, South Korea, under the supervision of Prof. Seungmoon Choi.
+	    </div>
+	  </div>
+	  
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Jan 19, 2020 </div>
+	    <img src="https://2020.hapticssymposium.org/img/hs-logo.png" width=120 alt="haptics symposium"/>
+	    <div class="CNnewslistingtitle"><a href="https://2020.hapticssymposium.org/">Shared Reality Lab has <strike>three, four</strike> <b>five</b> accepted papers at the IEEE Haptics Symposium 2020</a></div>
+	    <div class="CNnewslistingsummary">
+	      Our team saw paper acceptances for "Ten Little Fingers, Ten Little Toes", (now published in Transactions on Haptics), "Exploring the Effectiveness of Haptic Alarm Displays for Critical Care Environments", "HapToes: Vibrotactile Numeric Information Delivery via Tactile Toe Display", "Habituation to Pseudo-Ambient Vibrotactile Patterns for Remote Awareness", and "Evidence of Sensory Adaptation to Kinaesthetic Sensations in the Human Somatosensory System".  Pending rescheduling of the symposium, we will also be taking part in the Cross-Cutting Challenges theme on "Skin as a Medium for Communication" and presenting a poster related to our Transactions paper on "Getting Your Hands Dirty Outside the Lab: A Practical Primer for Conducting Wearable Vibrotactile Haptics Research."
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Sep 1, 2019 </div>
+	    <img src="http://sites.utexas.edu/isss/files/2013/08/welcome-in-various-languages.jpg" width=120 alt="new students"/>
+	    <div class="CNnewslistingtitle"><a href="/personnel/">Welcome to our new M.Eng. students</a></div>
+	    <div class="CNnewslistingsummary">
+	      We are delighted to welcome our newest lab members, Clara Ducher, Hyejin Lee, Yaxuan Li, and David Marino.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Aug 10, 2019 </div>
+	    <img src="https://dynamic.indigoimages.ca/books/0394829085.jpg?altimages=false&scaleup=true&maxheight=515&width=380&quality=85&sale=0&lang=en" width=120 alt="new baby"/>
+	    <div class="CNnewslistingtitle"><a href="#">Congratulations to Antoine Weill-Duflos and his family on their new arrival, Evan.</a></div>
+	    <div class="CNnewslistingsummary">
+	      The proud daddy reports that his older son is thrilled to have his new baby brother at home, although less enthusiastic about the noise dB/size ratio.
+	    </div>
+	  </div>
+	  
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">March 15, 2019 </div>
+	    <img src="https://s3-eu-west-1.amazonaws.com/ultrahaptics/wp-content/uploads/2018/12/chi-2019-logo.jpg" width=120 alt="CHI 2019"/>
+	    <div class="CNnewslistingtitle"><a href="https://chi2019.acm.org/2019/03/15/chi-2019-best-papers-honourable-mentions/">Pascal Fortin and Lis Sulmont recognized with "Best of CHI" Honourable Mention</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Pascal Fortin and Lis Sulmont, whose CHI 2019 paper, "Detecting Perception of Smartphone Notifications Using Skin Conductance Responses" has been recognized by a "Best of CHI" Honourable Mention.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Oct 17, 2018 </div>
+	    <img src="http://uist.acm.org/uist2019/images/landing-page/logo-dark.png" width=120 alt="UIST 2019"/>
+	    <div class="CNnewslistingtitle"><a href="http://uist.acm.org/uist2019/organizers.html">Pascal Fortin is UIST Student Innovation Contest co-chair</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Pascal Fortin, who is named as co-chair of the UIST 2019 Student Innovation Competition!
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Sep 26, 2018 </div>
+	    <img src="https://static1.squarespace.com/static/5b2fdf531aef1dc59590c3f1/t/5b3042241ae6cf66f744ca9f/1529889651753/city-map.png?format=750w" width=120 alt="WINS winner"/>
+	    <div class="CNnewslistingtitle"><a href="https://wirelesschallenge.mozilla.org/#winners">Project Lantern takes 2nd Grand Prize in WINS Challenge</a></div>
+	    <div class="CNnewslistingsummary">
+	      In partnership with Paper & Equator, New York, several of our lab members participated in <a href="https://www.lantern.works/">Project Lantern</a>, which was recently awarded second place as a Grand Prize Winner of the Mozilla <a href="https://wirelesschallenge.mozilla.org/#winners">Wireless Innovation for a Networked Society (WINS) Challenges</a>.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Apr 27, 2018</div>
+	    <a href="graphics/CHI_Demo_Handout.pdf" target="_ "><img src="graphics/CHI_Demo_Twitter.png" width=120 height=90 alt="SRL Open House"/></a>
+	    <div class="CNnewslistingtitle"><a href="graphics/CHI_Demo_Handout.pdf">SRL hosts Open House demos for CHI 2018 visitors</a></div>
+	    <div class="CNnewslistingsummary">
+	      We are opening our doors for a series of lab demos the morning of Friday, April 27. If you're in Montreal then, check out some of our exciting research projects including Autour, multimodal VR teleoperation, remote implicit communication, foot-based haptic interaction, and punching empathy!
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Feb 20, 2018</div>
+	    <a href="https://blog.mozilla.org/blog/2018/02/20/20-big-ideas-connect-unconnected/" target="_ "><img src="https://blog.mozilla.org/wp-content/uploads/2018/02/PL-600x326.png" width=120 height=90 alt="AH 2018"/></a>
+	    <div class="CNnewslistingtitle"><a href="https://blog.mozilla.org/blog/2018/02/20/20-big-ideas-connect-unconnected//">Project Lantern winner of "Off the Grid" Internet Challenge</a></div>
+	    <div class="CNnewslistingsummary">
+	      We are delighted to be a part of the first-place team, led by our colleague, Jonah Model of Paper & Equator, selected by the National Science Foundation and Mozilla to work on the Wireless Innovation for a Networked Society (WINS) Challenges with "Project Lantern".
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Feb 8, 2018 </div>
+	    <a href="http://www.sigah.org/AH2018/" target="_ "><img src="http://www.sigah.org/AH2018/wp-content/uploads/2017/04/ai-222x300.jpg" width=120 height=90 alt="AH 2018"/></a>
+	    <div class="CNnewslistingtitle"><a href="/personnel/">Congratulations Taeyong!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Taeyong Kim receives the best poster presentation award from ACM Augmented Human Symposium for his poster on "Enhanced Pressure-Based Multimodal Immersive Experiences".
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Aug 2, 2017 </div>
+	    <a href="https://uist.acm.org/uist2017/" taret="_ "><img src="https://uist.acm.org/uist2017/logo.svg" width=120 height=90 alt="UIST 2017"/></a>
+	    <div class="CNnewslistingtitle"><a href="/personnel/">Congratulations Pascal and Jeff!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Pascal Fortin, student volunteer chair at the ACM Symposium on User Interface Software and Technology (UIST), will be presenting his poster with Jeff Blum on "Raising the Heat: Electrical Muscle Stimulation for Simulated Heat Withdrawal Response".
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Jun 15, 2017 </div>
+	    <a href="http://autour.mcgill.ca"><img src="http://autour.mcgill.ca/images/autourLogo.png" width=120 alt="Autour"/></a>
+	    <div class="CNnewslistingtitle"><a href="https://autour.mcgill.ca">Autour receives new funding</a></div>
+	    <div class="CNnewslistingsummary">
+	      With new CIRA funding, we are expanding the capabilities of our app to support environmental awareness for the blind and visually impaired, integrating visual scene understanding and an adaptation layer to learn what the user cares to hear about.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">May 8, 2017 </div>
+	    <a href="https://chi2017.acm.org/" target="_ "><img src="https://pbs.twimg.com/profile_images/748886590852894720/6EnS3_cZ.jpg" width=120 height=60 alt="CHI 2017"/></a>
+	    <div class="CNnewslistingtitle"><a href="/personnel/">Congratulations Danny!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Recent M.Eng. graduate, Danny Horodniczy, presents our work on "Enhanced Target Selection via a Variable-Friction Shoe" at CHI.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Oct 16-19, 2016 </div>
+	    <a href="https://uist.acm.org/uist2016/contest"><img src="projects/img/UIST_EMS_demo_r.jpg" width=120 alt="UIST"/></a>
+	    <div class="CNnewslistingtitle"><a href="https://uist.acm.org/uist2016/contest">UIST Student Innovation Contest</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Jeff and Pascal for their entry, which presented not only a compelling demo of electro-muscular stimulation, but did so in the context of an intriguing research question.  More to come soon!
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Sep 21-23, 2016 </div>
+	    <a href="http://autour.mcgill.ca"><img src="http://mmsp2016.ece.mcgill.ca/images/Background%20for%20Web.jpg" width=120 alt="MMSP"/></a>
+	    <div class="CNnewslistingtitle"><a href="http://mmsp2016.ece.mcgill.ca">IEEE MMSP in Montreal!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Our lab presented a paper, a demo, and participated in a panel session on VR and AR at the IEEE Workshop on Multimedia Signal Processing.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">Aug 26, 2016 </div>
+	    <a href="http://www.dailytexanonline.com/2016/08/26/ut-engineer-receives-funding-to-develop-empathy-mirror"><img src="http://www.dailytexanonline.com/sites/default/files/styles/article_main_image/public/images/2016/08/0825_illo_JackyTovar.jpg?itok=OcdvcD2b" width=120 alt="mirror"/></a>
+	    <div class="CNnewslistingtitle"><a href="http://www.dailytexanonline.com/2016/08/26/ut-engineer-receives-funding-to-develop-empathy-mirror">Our lab participates in development of "Empathy Mirror"</a></div>
+	    <div class="CNnewslistingsummary">
+	      With support from the National Academies of Sciences, Engineering and Medicine, our lab joins collaborators from UT-Austin, Drexel, and Stanford, in building technology that will allow the user to feel what others feel.
+	    </div>
+	  </div>
+
+          <div class="CNnewslisting">
+            <div class="CNnewslistingdate">August 7 </div>
+            <a href="https://www.cit-ec.de/en/content/news/german-canadian-resea
+rch-cooperation"><img src="projects/img/jan_haptic_shoe.jpg" width=90 alt="demo 
+of SRL haptic shoe"/></a>
+            <div class="CNnewslistingtitle"><a href="https://www.cit-ec.de/en/co
+ntent/news/german-canadian-research-cooperation">Demo of Haptic Shoe</a></div>
+            <div class="CNnewslistingsummary">
+              Ph.D. student Jan Anlauff (right) demonstrated our haptic shoe prototype to a visiting Canadian-German delegation, including NSERC president Dr. B. Mario Pinto (left) at the Center of Excellence Cognitive Interaction Technology (CITEC) at Bielefeld University.
+            </div>
+          </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">June 22 </div>
+	    <a href="http://www.keckfutures.org/conferences/art-sem/index.html"><img src="http://www.keckfutures.org/graphics/t741l3/keck-logo.jpg" width=120 alt="keck foundation logo" /></a>
+	    <div class="CNnewslistingtitle"><a href="http://www.keckfutures.org/conferences/art-sem/index.html">Congratulations Jeff!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Ph.D. student Jeff Blum on being invited as "one of the nation's best and brightest researchers from academic, industrial, and government laboratories to explore and discover interdisciplinary connections in important areas of cutting-edge research" to participate in the National Academies Keck Futures Initiative (NAKFI) conference.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">March 4 </div>
+	    <a href="http://www.laval-virtual.org/en/prices-competitions/revolution/participants-revo-2.html"><img src="projects/img/laval-virtual-2015.png" width=90 alt="lavalvirtual" /></a>
+	    <div class="CNnewslistingtitle"><a href="http://www.laval-virtual.org/en/prices-competitions/revolution/participants-revo-2.html">Congratulations Naoto!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to M.Eng. student Naoto Hieda on the selection of <a href="http://www.cim.mcgill.ca/~nhieda/sharedface/">SharedFace2</a> as a winner at Laval Virtual, which follows his Special Recognition Award in 2014 from the <a href="http://ivrc.net/2014/en">International Virtual Reality Contest</a>.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">October 9 </div>
+	    <a href="http://www.cim.mcgill.ca/~dalia"><img src="http://www.cim.mcgill.ca/~dalia/images/research_renmp.jpg" width=90 alt="dalia" /></a>
+	    <div class="CNnewslistingtitle"><a href="http://www.cim.mcgill.ca/~dalia">Congratulations Dalia!</a></div>
+	    <div class="CNnewslistingsummary">
+	      Congratulations to Dr. Dalia El-Shimy on an outstanding performance in her Ph.D. defence for her work on <a href="http://www.cim.mcgill.ca/~dalia/research/renmp.html">Reactive Environment for Network Musical Performance</a>.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">August 7 </div>
+	    <a href="http://www.bonnersprings.com/news/2014/aug/07/bonner-springs-firefighters-help-develop-search-an/"><img src="http://kweeklies.media.clients.ellingtoncms.com/img/croppedphotos/2014/08/05/BSart_0807_tech1_crop_t640.jpg?a6ea3ebd4438a44b86d2e9c39ecf7613005fe067" width=90 alt="responder app" /></a>
+	    <div class="CNnewslistingtitle"><a href="http://www.bonnersprings.com/news/2014/aug/07/bonner-springs-firefighters-help-develop-search-an/">Our work with Bonner Springs firefighters is helping develop search and rescue technology for first responders</a></div>
+	    <div class="CNnewslistingsummary">
+	      Our prototype <a href="http://srl.mcgill.ca/projects/responder">augmented reality tools for improved training of first responders</a> was recently tested in a training session involving firefighters in Bonner Springs, KS.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">June 26 </div>
+	    <a href="http://us-ignite.org/applicationsummit/"><img src="/projects/img/art.jpg" width=90 alt="responder app" /></a>
+	    <div class="CNnewslistingtitle"><a href="http://us-ignite.org/applicationsummit"> Augmented Reality Training wins "best app in education" at the US Ignite Summit</a></div>
+	    <div class="CNnewslistingsummary">
+	      Our demo of the prototype <a href="http://srl.mcgill.ca/projects/responder">augmented reality tools for improved training of first responders</a> tools showed off the possibilities of enhancing awareness of firefighters during their training scenarios and facilitating post-training debriefings with Google Glass.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">February 24 </div>
+	    <a href="http://2014.hapticssymposium.org/conference/toh-special-session"><img src="graphics/floor_pool.png" width=90 alt="haptic pool" /></a>
+	    <div class="CNnewslistingtitle"> <a href="http://2014.hapticssymposium.org/conference/toh-special-session">One of "best of 2013" papers from IEEE Trans. on Haptics</a></div>
+	    <div class="CNnewslistingsummary">
+	      Our paper, <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6226398&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6226398">Vibrotactile Rendering of Splashing Fluids</a>, is presented at the IEEE Haptics Symposium as a <a href="http://2014.hapticssymposium.org/conference/toh-special-session">best of 2013</a> selection from the IEEE Transactions on Haptics.
+	    </div>
+	  </div>
+
+	  <div class="CNnewslisting">
+	    <div class="CNnewslistingdate">April 24 </div>
+	    <a href="https://blog.mozilla.org/gigabit/"><img src="http://srl.mcgill.ca/projects/responder/images/augmented.svg" width=90 alt="augmented responder view" /></a>
+	    <div class="CNnewslistingtitle"> <a href="https://blog.mozilla.org/gigabit">Mozilla funding for improved training of first responders</a></div>
+	    <div class="CNnewslistingsummary">
+	      Our pilot project on <a href="http://srl.mcgill.ca/projects/responder">augmented reality tools for improved training of first responders</a> with the Bonner Springs Fire Department (Kansas City) is selected as one of eight grant recipients of the Mozilla Gigabit Community Fund.
+	    </div>
+	  </div>
+-->
+	  
+	</div>
+
+	
+	<div class="homeFE">
+	  <div class="heading">About us</div> 
+	  <div class="about">
+	    <span style="font-weight:bold">The Shared Reality Lab works to achieve high-fidelity distributed interaction, with both real and virtual data, at levels of presence that support the most demanding applications, and to do so in spite of sensor and bandwidth limitations. </span> Our lab works with audio, video, and haptic technologies, mixed reality and mobile computing, building systems that leverage their capabilities to facilitate and enrich both human-computer and computer-mediated human-human interaction. Active projects include development of conversational <a href="projects/psychosis">avatars for therapy</a> and engagement with older adults, rendering <a href="https://image.a11y.mcgill.ca">audio-haptic experiences of graphics contents</a> for users who are blind, <a href="projects/niw">multimodal immersive walking experiences</a>, telepresence for music and social interaction, and design of the flight deck of the future.	    
+
+	    <!--
+	    <div style="margin-top:30px">
+	      <p>This video (from January 2021) provides a brief overview of some of our current and planned research activities.</p>
+	      
+	      <iframe width="441" height="248" src="https://www.youtube.com/embed/K7fPFY_lyGA?start=29" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	    </div>
+	    -->
+
+	    <div style="margin-top:30px">For questions about the lab,
+	      please
+	      contact <a href="http://www.cim.mcgill.ca/~jer">Prof. Jeremy
+	      Cooperstock</a>.
+	    </div>
+	  </div>
+	</div>
+	
+	<div class="clear"></div>
+
+	<div style="padding-top:30px">
+	  The <a href="http://srl.mcgill.ca">Shared Reality Lab</a> is
+      currently funded by grants and contracts from the 
+      <a class="subtle" href="http://nserc.ca">Natural Sciences and Engineering Research Council</a>,
+      <a class="sublte" href="https://www.medteq.ca">MEDTEQ</a>,
+      <a class="sublte" href="https://www.mcgill.ca/hbhl">Healthy Brains, Healthy Lives</a>,
+      <a class="sublte" href="https://www.criaq.aero/en/">CRIAQ</a>,
+      iMD Research, AI Mental Health Precision, Humanware, and Haply Robotics.
+      Past funding sources include the
+      <a class="subtle" href="http://www.frqnt.gouv.qc.ca">Fonds Nature et technologies</a>, 
+      <a class="subtle" href="http://www.msp.gouv.qc.ca">Sécurité publique Québec</a>,
+      <a class="subtle" href="http://cira.ca">Canadian Internet Registry Association</a>,
+      <a class="subtle" href="http://www.nce-rce.gc.ca">Networks of Centres of Excellence</a>, 
+      <a class="subtle" href="http://mdeie.gouv.qc.ca">Minstère du développement économique, de l'innovation et de l'exportation</a>, 
+      <a class="subtle" href="http://www.tresor.gouv.qc.ca">Secrétariat du Conseil du trésor</a>, 
+      <a class="subtle" href="http://www.canarie.ca">CANARIE</a>,
+      and
+      <a class="sublte" href="http://www.ic.gc.ca">Innovation, Science and Economic Development Canada</a>, as well as industrial support from
+      <a href="http://www.hpl.hp.com">HP Labs</a>,
+      <a class="subtle" href="http://www.google.com">Google</a> research, 
+      the <a class="subtle" href="https://www.mozilla.org/">Mozilla</a>.
+      and <a class="subtle" href="http://www.interdigital.com/">InterDigital Corporation</a>.
+	</div>
+
+	<div style="margin-top:20px">
+
+	  <a href="https://www.ic.gc.ca/">
+	    <img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="" border="0" width="200" style="margin-bottom: 20px">
+	  </a>
+	  
+	  <a href="http://www.nserc.ca">		
+	    <img src="graphics/logo_nserc.jpg" alt="" border="0" width="130" style="margin: 0px 10px"> 
+	  </a>
+
+	  <a href="http://www.fqrnt.gouv.qc.ca">		
+	    <img src="graphics/logo_fqrnt.gif" alt="" border="0" width="150" style="margin: 0px 20px">
+	  </a>
+	  	  
+	  <a href="http://www.tresor.gouv.qc.ca">		
+	    <img src="graphics/logo_sct.png" alt="" border="0" width="140" style="margin-bottom: 5px">
+	  </a>
+
+	  <a href="http://www.mdeie.gouv.qc.ca">		
+	    <img src="graphics/logo_mdeie2.jpg" alt="" border="0" width="140" style="margin-bottom: 5px; margin-left:20px">
+	  </a>
+	
+	  <a href="http://medteq.ca">		
+	    <img src="graphics/logo_medteq.jpg" alt="" border="0" width="100" style="margin-bottom: 0px; margin-right:20px">
+	  </a>
+
+	  <a href="https://www.criaq.aero/">		
+	    <img src="https://media-exp1.licdn.com/dms/image/C560BAQEEdLI57gXdNw/company-logo_200_200/0/1519912577454?e=2147483647&amp;v=beta&amp;t=9C8Xxgt5n9P2eEfp6tO9IFqedidI-r89Wtjbl1MJj8U" alt="" border="0" width="100" style="margin-bottom: -5px; margin-right:20px">
+	  </a>
+
+	  <a href="http://www.cirmmt.org">		
+	    <img src="graphics/cirmmt_block_logo.png" alt="" border="0" height="50" style="margin: 0px 20px">
+	  </a>
+
+	  <a href="http://www.grand-nce.ca/">
+	    <img src="graphics/logo_grand.png" alt="" border="0" width="120" style="margin: 0px 10px">
+	  </a>
+
+	  <a href="http://www.cira.ca/">
+	    <img src="graphics/cip-en-colour-web.jpg" alt="" border="0" width="160" style="margin: 0px 10px">
+	  </a>
+	  <a href="http://www.canarie.ca">		
+	    <img src="graphics/logo_canarie.gif" alt="" border="0" width="150" style="margin: 0px 20px">
+	  </a>
+
+	  <a href="http://www.innovation.ca">		
+	    <img src="graphics/logo_cfi.jpg" alt="" border="0" width="150" style="margin: 0px 20px">
+	  </a> -->
+
+	  <!--
+	      <a href="http://www.vrq.qc.ca">
+		<img src="graphics/logo_vrq.jpg" alt="" border="0" width="75" style="margin: 0px 20px">
+	      </a>
+	      
+	      <a href="http://www.bce.ca/en/community/innovation/universityresearch/index.php">		
+		<img src="graphics/logo_lub.png" alt="" border="0" width="75">
+
+		<a href="http://www.precarn.ca/IRIS/index_en.html">		
+		  <img src="graphics/logo_iris.jpg" alt="" border="0" width="50"> 
+		</a>
+
+		<a href="http://www.petrocanada.ca">		
+		  <img src="graphics/logo_petrocan.gif" alt="" border="0" width="50">
+		</a>
+
+		<a href="http://www.canadianheritage.gc.ca/progs/pcce-ccop/progs/mednet_e.cfm">		
+		  <img src="graphics/logo_patrimoine.gif" alt="" border="0" width="150"
+		       </a>
+		<a href="http://www.canadacouncil.ca/grants/mediaarts/rl127223008646562500.htm">		
+		  <img src="graphics/logo_ccfta.jpg" alt="" border="0" width="150">
+		</a>
+
+		<a href="http://www.hpl.hp.com">
+		  <img src="graphics/logo_hp.png" alt="HP Labs" border=0 style="margin: 0px 10px">
+		</a>
+		
+		<a href="http://mozillaignite.org/">
+		  <img src="graphics/logo_ignite2.png" alt="Mozilla Ignite" border=0 height=50 style="margin: 0px 10px; padding-top:15px">
+		</a>
+		
+		<a href="http://www.google.com/research">
+		  <img src="graphics/logo_google.gif" alt="Google Research" border=0 width="130" style="margin: 0px 10px">
+		</a>
+		
+		<a href="http://www.interdigital.com">
+		  <img src="https://s3.amazonaws.com/files.interdigital.com/55bd0288af0b0930ba599bd0c4b7ca38/resources/img/id_logo_new.png" alt="InterDigital" border=0 width="130" style="margin: 0px 10px">
+		</a>
+		-->
+
+	  <!-- <a href="https://www.imdresearch.ca/">
+	    <img src="https://www.imdresearch.ca/landing-assets/images/imd.png" alt="iMD Research" border="0" width="70" style="margin: 0px 25px">
+	  </a>
+
+	  <a href="https://www.humanware.com">
+	    <img src="https://www.humanware.com/Site/Designs/uploads/new/Logo_HumanWare.jpg" alt="Humanware" border="0" width="130" style="margin-bottom:10px">
+	  </a>
+
+	  <a href="https://www.haply.co">
+	    <img src="https://static1.squarespace.com/static/6303dfe67e33741f9d4a2eed/t/632e059351b11b5d1312ce7b/1663354476457/Haply+Logo_blackout_RGB.jpg?format=1500w" alt="Haply" border="0" width="170" style="margin-bottom:-20px">
+	  </a>
+
+	  <a href="https://www.mcgill.ca/hbhl">
+	    <img src="https://www.mcgill.ca/hbhl/files/hbhl/hbhl_logo_en_pantone.png" alt="Healthy Brains, Healthy Lives" border="0" width="160" ;="" style="margin-bottom:5px">
+	  </a>
+      </div>
+      
+	<!-- <div style="font-size:7pt; margin-top:50px">
+	    Credit for the CSS contents of this web site to the <a href="http://grand-nce.ca">GRAND NCE</a>.  Credit for the SRL logo to former M.Eng. student, Naoto Hieda.
+	  </div> -->
+
+	</div>
+      </div>
+  
+
+</body></html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+
+<head>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <title> The backburner </title>
+
+  <style>
+    .quote {
+      margin: 0;
+      background: #eee;
+      padding: 1em;
+      border-radius: 1em;
+    }
+
+    .quote figcaption,
+    .quote blockquote {
+      margin: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+
+    <script>
+      // based on http://www.webcreatorbox.com/en/tutorials/smartphone-snippets/#mobile8
+      var ua = navigator.userAgent.toLowerCase();
+      var isPhone = ua.indexOf("iphone") > -1 || ua.indexOf("ipad") > -1 || ua.indexOf("ipod") > -1 || ua.indexOf("android") > -1;
+      if (isPhone) {
+        document.write('<a href="/"><img class="srlLogo" width="195" height="117" alt="srlLogo.png" src="/assets/images/srlLogo.png"></a>');
+      } else {
+        document.write('<video poster="/assets/images/srlLogo.png" width="195" height="117" autoplay="" class="srlLogo"><source src="/assets/videos/srlLogo.mp4" type="video/mp4">');
+        document.write('<a href="/"><img src="/assets/images/srlLogo.png" class="srlLogo" width="195" height="117" alt="SRL Logo" /></a>');
+        document.write('</video>');
+      }
+    </script>
+
+    <div id="mainmenu">
+      <ul>
+        <li> <a href="./index.html" title="home page">home</a></li>
+        <li> <a href="./goldeneye.html" title="personnel">goldeneye</a></li>
+        <li> <a href="./perfect-dark.html" title="perfect dark">perfect dark</a></li>
+        <li> <a href="./open-projects.html" title="open projects">open projects</a></li>
+        <li> <a href="./backburner.html" title="backburner">backburner</a></li>
+        <li> <a href="./media.html" title="media">media</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div id="mainsection">
+<br>
+
+<h1> The Backburner </h1>
+
+
+    <ol>
+      <li>
+        <a href="#" onclick="$('#backburner').slideToggle('slow');return false">What is the backburner?</a>
+
+        <div id="backburner" style="display:none">
+          <p>
+          <p>The backburner is a list of goals that have been set aside to focus on other goals. 
+            These goals can range from ILs, to full game (RTA) records, to challenges. 
+      </li>
+
+
+      <li>
+        <a href="#" onclick="$('#when').slideToggle('slow');return false">When will you get X record?</a>
+
+        <div id="when" style="display:none">
+          <p>
+            I do not know. When I "feel like it." It can take several years to clear out some items.
+          </p>
+        </li>
+
+      <li>
+        I think you should try for <a href="#" onclick="$('#suggestions').slideToggle('slow');return false">Y record!</a>
+
+        <div id="suggestions" style="display:none">
+          <p>
+            You are welcome to suggest any goal, strat, or ideas in my <a href="http://twitch.tv/perfectace">Twitch chat</a> when I stream.
+          </p>
+        </li>
+        <img src=./assets/gfx/h_line.gif>
+        <br>
+        Last update: 25 December 2023
+  </div>
+  </ol>
+
+  
+
+
+
+
+  </div>
+</body>
+
+</html>

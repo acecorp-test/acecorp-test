@@ -1,0 +1,657 @@
+<html>
+
+<head>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="/assets/templates/slider.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.anythingslider.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.easing.1.2.js"></script>
+  <script type="text/javascript" src="/assets/js/srlhome.js"></script>
+  <title> Open Projects </title>
+</head>
+
+<body>
+  <div id="header">
+
+    <script>
+      // based on http://www.webcreatorbox.com/en/tutorials/smartphone-snippets/#mobile8
+      var ua = navigator.userAgent.toLowerCase();
+      var isPhone = ua.indexOf("iphone") > -1 || ua.indexOf("ipad") > -1 || ua.indexOf("ipod") > -1 || ua.indexOf("android") > -1;
+      if (isPhone) {
+        document.write('<a href="/"><img class="srlLogo" width="195" height="117" alt="srlLogo.png" src="/assets/images/srlLogo.png"></a>');
+      } else {
+        document.write('<video poster="/assets/images/srlLogo.png" width="195" height="117" autoplay="" class="srlLogo"><source src="/assets/videos/srlLogo.mp4" type="video/mp4">');
+        document.write('<a href="/"><img src="/assets/images/srlLogo.png" class="srlLogo" width="195" height="117" alt="SRL Logo" /></a>');
+        document.write('</video>');
+      }
+    </script><video poster="/assets/images/srlLogo.png" width="195" height="117" autoplay="" class="srlLogo">
+      <source src="/assets/videos/srlLogo.mp4" type="video/mp4"><a href="/"><img src="/assets/images/srlLogo.png"
+          class="srlLogo" width="195" height="117" alt="SRL Logo"></a>
+    </video>
+
+    <div id="mainmenu">
+      <ul>
+        <li> <a href="./index.html" title="home page">home</a></li>
+        <li> <a href="./goldeneye.html" title="personnel">goldeneye</a></li>
+        <li> <a href="./perfect-dark.html" title="perfect dark">perfect dark</a></li>
+        <li> <a href="./open-projects.html" title="open projects">open projects</a></li>
+        <li> <a href="./backburner.html" title="backburner">backburner</a></li>
+        <li> <a href="./media.html" title="media">media</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="mainsection">
+
+
+    <h1> Open Projects </h1>
+
+    <p>
+
+      The listed projects involve ongoing efforts, either by me or someone else, aimed at simplifying an IL strategy,
+      discovering a new trick, or learning something out of curiosity.
+
+    </p>
+    <!-- <h2> Electrical and Computer </h2> -->
+
+    <!-- <p style="padding-top:30px"> -->
+    <img src="./assets/gfx/rando.png" border="0" width="210" style="padding-right:15px; float:left">
+
+
+    <b>The GoldenEye randomizer</b> is an innovative mod that transforms
+    the game into a
+    refreshingly dynamic experience by scattering items across levels; imagine a circuit board on Silo placed somewhere
+    on Dam.
+    In this
+    proposed mod,
+    three random
+    levels are unlocked at the very beginning of the game, one of which is Dam, and two others selected at
+    random that are spaced a
+    few levels apart
+    in the game
+    (e.g., Dam, B2, and Caverns). The goal would be to unlock and complete
+    all 20 levels, but key items needed to progress past parts of a level are placed in random locations on other
+    levels. For example, in this "Dam/B2/Caverns" selection, the keycard at the start on Facility
+    could be placed somewhere on Caverns, so the player would not be able to beat Facility immediately after Dam, but
+    rather
+    have
+    to play Caverns, find the "Facility keycard" in the level, and then revisit Facility (items would carry
+    over across levels). Then, for example, the ignition key on Runway or large key on S1 could be located somewhere in
+    Statue, so players would be required to explore the "post-B2" set of levels to complete Runway/S1. Such style of
+    randomization
+    could be designed in a way to require completing levels in unusual orders, revisiting levels multiple times,
+    and exploring regions of levels not typically encountered during gameplay/speedruns. For added unpredictability, the
+    mod would also shuffle guard weapons, guard health, body armor positions, alarm/camera positions, or even
+    mirror levels. Logic would have
+    to be designed to make any combination of logic possible such that players do not get softlocked.
+
+    <p>
+      This project would involve the following positions:</p>
+    <ul>
+      <li>Designing the logic of the randomizer;</li>
+      <li>Creating a ROM hack that implements such logic;</li>
+      <li>Playtesting the ROM hack to ensure it is playable.</li>
+      <li>Exploring the possibility of a similar style of randomizer for Perfect Dark, especially since a PC port for
+        that game is currently available.</li>
+    </ul>
+
+    <a name="train-zero-kill-challenge"></a>
+    <p style="padding-top:5px">
+      <img src="./assets/gfx/train-slappers.png" border="0" width="110" style="padding-right:15px; float:left">
+      <b> Train Agent Zero Kill Challenge </b>
+
+
+
+    </p>
+    <p>Completing Train Agent with zero kills is an interesting challenge due to the dense presence of guards
+      in several narrow corridors, and added complexity in taking out the locks at the end. As you cannot kill Ouromov,
+      you must take out the locks at near-WR pace while avoiding hits
+      from the two nearby ZMG guards who open the door. Unfortunately, when
+      skipping guards at the
+      beginning, the locked door to Ouromov takes
+      several minutes to open. Understanding the reason behind the slow door opening, or finding a way to manipulate it,
+      would enhance the enjoyment of the challenge.
+    </p>
+
+    <a name="pd101"></a>
+    <p style="padding-top:5px">
+      <img src="https://i.ytimg.com/vi/3hA2-gZ5MyI/maxresdefault.jpg" border="0" width="110"
+        style="padding-right:15px; float:left">
+      <b> 101 Perfect Dark Challenges </b>
+
+
+
+    </p>
+    <p>A series of challenges that require good knowledge and skills in the game to complete. For example,
+      completing levels in reverse objective order, completing levels without passing through certain areas,
+      completing a set of unusual tasks within a specific time limit, or completing levels with limited ammo using
+      only GoldenEye weapons. Some even require playing through every stage in the game. This list is still a work in
+      progress,
+      and is being produced in collaboration with DeepDarknessSpain.</p>
+
+
+    <a name="hapticspeech"></a>
+    <p style="padding-top:30px">
+      <img src="./assets/gfx/b2-cam.png" border="0" width="190" style="padding-right:15px; float:left">
+      <b> Improving the B2 00A WR Console Lure</b>
+
+      <br>
+
+    <p>
+      <!-- The "TAS clipboard" lure employed in the current Bunker 2 00 Agent 0:49 World Record run presents a potential
+      time-saving opportunity of up to 2 seconds. However, a significant obstacle associated with this tactic is the
+      presence of a group of guards near the third-to-last camera area. This complicates the task of obtaining both the
+      clipboard and successfully hitting the fourth camera, as the auto-aim functionality tends to target the guards.
+      Consequently, maintaining consistency in completing runs becomes challenging.
+
+      To address this issue, the WR run incorporates a dual-weapon switch attempt to fire more ammunition
+      simultaneously. Unfortunately, this strategy proves ineffective, as the auto-aim system still locks onto the
+      nearby guards. Understanding the origin of these guards and finding a way to redirect their movement could
+      potentially enhance the viability of the strategy. Given that it's easier to predict the identity of the clipboard
+      guard, improving consistency in dealing with the fourth camera could significantly enhance the overall feasibility
+      of the approach.
+
+      Furthermore, variability in the positioning of the safe key guard adds an additional layer of complexity to the
+      level. The guard can be found either at the junction door, beside the documents room door, or sometimes multiple
+      guards occupy the corridor. Analyzing and deciphering these guard patterns could lead to a substantial improvement
+      in the ease of executing the level and contribute to bringing the World Record time down to its optimal potential. -->
+
+      The "TAS clipboard" lure used in the current <a href="https://www.youtube.com/watch?v=n0LH9eSInhM">Bunker 2 00
+        Agent 0:49
+        World Record run</a> can save up to 2 seconds, but a
+      significant problem associated with this strategy is a pile-up of guards near the 3rd last camera area.
+      This makes it very difficult to hit the camera, since the autoaim tries to target nearby guards instead. To
+      address this issue,
+      the WR run
+      uses a dual-weapon wielding trick to kill the guards in an attempt to "release" the autoaim quickly enough for the
+      camera, but
+      the trick remains ineffective as it is usually difficult to kill the offending guards fast enough. A better
+      approach is to
+      understand the
+      path of these guards, and try to redirect their movement. This could significantly improve the consistency of this
+      section of the level.
+      A secondary, minor issue is the randomness in the position of the second safe key guard, i.e., the guard lured
+      from the dossier room. The
+      guard is easiest to
+      kill when he is at the far end of the corridor just before the stairs, but he can be found in multiple positions:
+      in front of the junction door, beside the documents room door, and sometimes alongside a clone before the stairs.
+      What causes these random positions?
+      Understanding both of these lures better could help lower the WR time.
+    </p>
+
+    <a name="rescuepa"></a>
+    </p>
+    <p style="padding-top:30px">
+      <img src="./assets/gfx/rescue-pa-door.png" border="0" width="140" style="padding-right:15px; float:left">
+      <b>Rescue PA's Shower Door Problem</b>
+
+      <br>
+    </p>
+    <p>Take a look at my <a href="https://www.youtube.com/watch?v=i6Kia7s6qK4">Rescue Perfect Agent 2:34</a>. I reach
+      the shower room door at low-mid 1:20ish, which is standard pace to this part of the level. Both shower doors
+      seem to open really slow at this pace, costing as much as 6 seconds, likely because the patrolling guard who opens
+      it
+      after being alerted is at the far
+      end of the shower room. This "late door open" happens frequently, and will unfortunately be in the way of Rescue
+      PA
+      having a time in the low 2:20s. It may be worth doing Objective One (console room lure), Objective Two (X-Ray),
+      and the
+      keycard lure in a different order (even after the shower room door lure) such that you reach the shower door when
+      the guard is nearby. Such combinations of strats need to be investigated to see whether they improve consistency
+      of the
+      level, particularly by affecting the shower guard's position, and may include:
+
+
+    <ul>
+      <li>Watching more cinema to have the first lift shut on you;</li>
+      <li>Doing the X-Ray objective after the keycard lure (as opposed to doing it at the very end);</li>
+      <li>Manually doing the Objective One uplink to mitigate one major luck factor in the level;</li>
+      <li>Doing the Objective One lure after the shower door lure.</li>
+    </ul>
+
+    <a name="360cam"></a>
+    <p style="padding-top:30px">
+      <img src="./assets/gfx/g5-lure.png" border="0" width="160" style="padding-right:15px; float:left">
+      <b>Improved Consistency & Practice For the Fast G5 Door Lure</b>
+
+      <br>
+    </p>
+    <p>The G5 Building Special Agent World Record still uses the slower guard lure after the 2nd room. The faster lure,
+      as seen in the <a href="https://www.youtube.com/watch?v=9lRDUMlYwUs">Agent 0:32</a>,
+      can be a second faster, and is the key to lowering the Special Agent record to 0:35. Though the
+      faster guard lure appears to be inconsistent, I have seen and personally encountered
+      several successful attempts in a short span, indicating that there may be a trick™ to improve its
+      consistency, such as punching the guard at a particular angle and/or after a particular amount of time, which
+      needs to be
+      investigated. Secondly, the
+      faster lure
+      results in the player reaching subsequent rooms much quicker, where patrolling guards are in "earlier" positions
+      that are more
+      awkward to handle, e.g., the patrolling guard in the buttons room is on the left side of the room, which means he
+      must be killed <i>after</i> deactivating the buttons on the right side of the room.
+      As it can take a long time to play out real runs to deal with these guard positions, a ROM in which the guard runs
+      to and
+      opens the door every try would help significantly with practice, and also be effective in determining whether
+      there would be any increase in lag at the end of the level (post-cinema).
+
+    </p>
+
+    p2 sa orgy at end.
+
+
+    <a name="runwayooa"></a>
+    </p>
+    <p style="padding-top:30px">
+      <img src="./assets/gfx/runway-ooa-lure.png" border="0" width="130" style="padding-right:15px; float:left">
+      <b>Runway 00 Agent Ultimate Practice ROM</b>
+
+      <br>
+
+    </p>
+    <p>
+      The Runway 00 Agent World Record strategy has a steep learning curve, which could be significantly flattened with
+      a well-designed
+      practice ROM. Currently, it is difficult to know where to stand for each R-lean throw, and this difficulty can be
+      compounded if the player struggles
+      with R-leaning in general. Such a ROM would mark positions on the map for each throw, and have a single
+      button that
+      mimics an R-lean, such that
+      players can learn each of these factors separately. Extra features could include statistics that
+      show how close each
+      throw is to its target.</p>
+
+    <br clear="all">
+    <!-- <p style="padding-top:30px"> -->
+    <img src="./assets/gfx/b2-cam.png" border="0" width="110" style="padding-right:15px; float:left">
+    <b>Speedrunning Eye Tracker</b>
+
+    <br>
+    <p> An eye-tracker that lets viewers see where the player is looking during gameplay, such as
+      a transparent moving bubble that corresponds to the player's gaze, could provide useful insight into a
+      player's style of play that isn't typically noticed (how often do they look at their ammo? when do they look at
+      the
+      timer [in PD]? how quickly do they notice black-hat guards in their peripheral view during the Control protect?
+      etc.) It might be possible to get something semi-robust working with just a good quality webcam or an Inertial
+      Measurement
+      Unit mounted on a headband.</p>
+
+
+    <br clear="all">
+    <a name="controller-action"></a>
+    <p style="padding-top:2px">
+      <img src="./assets/gfx/b2-cam.png" border="0" width="110" style="padding-right:15px; float:left">
+      <b>Measuring Controller Action Per Level</b>
+      <br>
+    <p>
+      A natural curiosity arises as to what levels require the most action, which can be measured by the amount of stick
+      movement
+      or frequency of button presses throughout a typical attempt of a level. Firmware that detects controller inputs
+      already exist,
+      so this project would only require tracking level attempts, and logging data on the stick movement and button
+      presses. These
+      data can then
+      be compiled, analyzed, and then presented in a way to show which levels have the most action. </p>
+
+
+    <a name="b1-lure"></a>
+    <p style="padding-top:30px">
+      <img src="./assets/gfx/early-boris-run.png" border="0" width="210" style="padding-right:15px; float:left">
+      <b>Fast Bunker 1 Boris Lure</b>
+
+      <br>
+    <p>Whiteted has <a href="https://forums.the-elite.net/index.php?msg=466884">written posts that meticulously
+        describe Boris' pathing on Bunker 1</a>. This information has allowed us to consider an "early Boris running"
+      technique, which, in conjunction with the "early Boris shot",
+      could be the breakthrough to a fresh untied on Bunker 1 00 Agent. There are, however, some tricky details to
+      consider for
+      such strategies to become
+      viable on console, such as Boris consistently running into a grenade explosion
+      from the patrolling guard in the main room if he starts running immediately, and ensuring he runs the correct
+      path.
+      An early test attempting an early lure (with cheats) <a href="https://www.youtube.com/watch?v=9uKQDZ1XqDQ">can be
+        seen here.</a></p>
+
+    </p>
+    <p style="padding-top:30px">
+      <img src="https://www.ikea.com/images/ikea-home-planner-6c6b5bdea4b24cf3ea21bf35507b41f1.jpg" border="0"
+        width="110" style="padding-right:15px; float:left">
+      <b>Train System Differences</b>
+
+      <br>
+    <p>Are there any significant differences between system versions (PAL / JP / NTSC) on Train? Does Bond get shot
+      more on the PAL system, as claimed by multiple top players? These questions must
+      be considered more seriously after the JP records were lowered to 0:56 (-3), 1:22 (-4), and 1:48 (-5)
+      respectively,
+      within one
+      month of grinding. I <a href="https://docs.google.com/document/d/1EqBjMgHixHwzqFHt5Baq4iBqqhWbRzgLaJEUKq3hi5Q">
+        wrote down some analysis</a> in July 2023 after playing the level for almost a month straight, but subjective
+      evaluations can
+      never be taken as truth. How can we objectively measure differences between these versions?</p>
+
+    <h1> Past / Solved Projects </h1>
+
+    <h2> Electrical and Computer</h2>
+
+    <a name="gptdali"></a>
+    <p style="padding-top:30px">
+      <img src="img/nietzche.jpg" border="0" width="110" style="padding-right:15px; float:left">
+      <b> Extraction Special Agent Out-Of-Bounds Bodyguards </b>
+
+      <br>
+    <p>
+
+      It is possible to kill all bodyguards on the lower floors on Extraction from out-of-bounds, as explained in this
+      <a href="https://www.youtube.com/watch?v=IxvVQo51pLk">tutorial by Wyst3r</a>,
+      with <a href="https://www.youtube.com/watch?v=9Esdf_x1F6Y">an attempt on console shown in this video</a>. If done
+      well, this strategy
+      could be 2 seconds faster
+      over running through the two mid-floor corridors, but there are several problems that must be dealt with on
+      console:
+
+    </p>
+    <ul>
+      <li> Ammo is a problem, as CMP-150 bullets are drained very quickly; </li>
+      <li> It is difficult for the auto-aim to lock onto the 5th out-of-bounds bodyguard;</li>
+      <li> The hovercopter can shoot Joanna off the ledge during the last couple of kills;</li>
+      <li> No CMP-150 ammo after the mid-floor bodyguards means the Falcon 2 Scope must be used for the
+        bodyguard room, which could be trickier to do quickly, and may result in the hovercopter being in an awkward
+        position when
+        doing the rocket shot on the roof.
+    </ul>
+
+
+    <p style="padding-top:30px">
+      <img src="http://srl.mcgill.ca/projects/img/apparatusArm.png" border="0" width="110"
+        style="padding-right:15px; float:left">
+      <b>Faster Investigation Perfect Agent Zoom Strats</b>
+
+    <p>AceCorp is seeking individuals interested in problem-solving to help engineer an alternative, quicker, and more
+      fun-to-play WR strategy for Investigation PA. Prerequisites include knowledge of both the Investigation SA & PA WR
+      strats; understanding how guards are lured in GoldenEye or Perfect Dark is an asset.
+
+      The current WR on Investigation Perfect Agent involves a "blind bot zoom", an off-screen zoom that requires
+      guesstimating to time correctly. Additionally, with the standard WR route, the player can complete objectives and
+      reach the lasers much faster than the bot by several seconds, so time is wasted sandbagging, e.g, Clemens' 2:26
+      kills guards in the first experiment room when he can ignore these guards and directly activate the terminals
+      instead. Considering there are alternative/additional locations the bot can be zoomed to make it reach the lasers
+      faster, strats such as directly activating the terminals should be used in conjunction with these alternative bot
+      zooms instead.
+
+      Our 2:25 fail shows that performing the hallway zoom instead of the "blind bot zoom", similar to the SA route, can
+      result in quicker bot paces than the current WR strat. The hallway zoom is much easier to time because the player
+      can see when the bot enters the hallway, thus removing the need to guesstimate. We also perform a zoom immediately
+      after activating the bot, which saves approximately 2-3 seconds. Additionally, because we are at the far end of
+      the hallway when the bot is just entering it, we will have time to zoom the bot at the first set of lasers, saving
+      another two seconds. This could result in a 1:39-1:42 uplink, which is 2 to 5 seconds faster than Clemens’ 2:26.
+
+      With our route, we directly activate the terminals in the first console room, but because we are so fast in doing
+      so, the K7 guard isn’t lured outside his room after shutting down the experiment. To address this problem, we
+      attempt to lure the K7 guard all the way to the end of the hallway instead, after the final two experiments, as
+      shown in this Clemens video from five years ago. However, this K7 lure appears to be inconsistent. Your role is to
+      find The Trick™ to lure the guard to the end of the hallway more often. We are also considering another strategy
+      that involves going inside the K7 room after the first experiment to kill the guard so he does not become a
+      concern later. Unfortunately, because he is still deep inside the room, as shown in the previously linked video,
+      this takes several extra seconds, so making it back to the hallway corridor after grabbing the Night Vision to
+      time the zoom becomes extremely tight. A workaround is to skip the zoom immediately after activating the bot,
+      which would also make it easier for the K7 guard to make the lift cycle, but this results in a 2-3 second
+      timeloss. A better approach would be to see whether the guard can at least be lured closer to the room's entrance
+      on the way back from the first experiment, but this too requires finding The Trick.™, which you must figure out.
+      Additional tasks, though not mandatory, can be finding small timesavers to make our alternative route easier to
+      run.
+    </p>
+
+    <a name="mraudio"></a>
+    </p>
+    <p style="padding-top:30px">
+      <img src="http://srl.mcgill.ca/projects/img/spatialaudio.jpg" border="0" width="110"
+        style="padding-right:15px; float:left">
+      <b> Faster Villa Special Agent Sniper Strat</b>
+
+      <br>
+    <p>
+
+      The <a href="https://www.youtube.com/watch?v=hCjz-AP3CHo">Villa Special Agent World Record of 1:09</a> could be
+      lowered by another couple of seconds by using a faster route
+      to
+      take out the snipers. <a href="https://www.youtube.com/watch?v=pDVQq-OEjKY">This video</a> shows a
+      proof-of-concept, in which
+      the last and second-last snipers are shot from the ground and upstairs balcony respectively, followed by entering
+      the villa
+      through the Agent route.</p>
+
+
+
+    <a name="styleGAN"></a>
+    <br clear="all">
+    <p style="padding-top:3px">
+      <img src="img/styleGAN.png" border="0" width="120" style="padding-right:15px; float:left">
+      <b>Reliable Infiltration PA RTA Strategy</b>
+
+      <br>
+    <p>
+      The out-of-bounds (OoB) warp on Infiltration is a one-shot risky strategy that requires precise weapon-switch
+      timing, and failing the clip on an RTA run is
+      effectively the death of the run,
+      as you will otherwise be quickly killed by the two high-accuracy MagSec guards, or have
+      little time
+      for a subsequent attempt. Yet, the
+      OoB clip saves
+      over thirty seconds compared to traditional RTA strategies, and makes survival for the hangar segment trivial. Is
+      there a way to make the OoB clip easier to
+      perform, or are there any alternative OoB positions that could save a similar amount of time?
+    </p>
+
+    <a name="styleGAN"></a>
+    <br clear="all">
+    <p style="padding-top:3px">
+      <img src="img/styleGAN.png" border="0" width="120" style="padding-right:15px; float:left">
+      <b>External AutoSplitter</b>
+
+      <br>
+    <p>
+      Most effective on short levels with no pausing, <a
+      href="https://github.com/Toufool/AutoSplit">the AutoSplitter</a> is a simple tool that makes use of reference
+      images to
+      trigger segment splits per level, e.g., the hallway entry on Facility Agent. A video demonstrating one can be seen
+      <a href="https://www.youtube.com/watch?v=HmRDQ93FC_o">
+        here</a>. Ultimately abandoned due to the lack of robustness, precision to in-game time, and tediousness in setting up
+        splits for a level.
+    </p>
+
+    <a name="psychosis"></a>
+    </p>
+    <p style="padding-top:30px">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/600px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+        border="0" width="110" style="padding-right:15px; float:left">
+      <b>Frigate 00 Agent Consistent Strategy</b>
+
+      <br>
+    <p>
+      The current WR strategy for Frigate 00 Agent has incredibly poor hostage completion odds, primarily caused by
+      reliance on the
+      "00A hostage"
+      whose odds of escaping at WR speed are extremely low. The "engine room" strategy, used on <a
+        href="https://www.youtube.com/watch?v=ujAhybvkkug">my 1:08</a>, <a
+        href="https://forums.the-elite.net/index.php?msg=482469">significantly improves hostage escape odds</a>, but
+      demands
+      exceptionally
+      fast movement to match or surpass WR pace. Yet, this tradeoff may be worth considering, especially as a more
+      skill-based
+      challenge. Exploring alternative strategies, such as incorporating the reverse
+      pipe warp route at the beginning, and documenting their odds, may also warrant investigation.</p>
+    </p>
+
+    <a name="sensory_reeducation"></a>
+    </p>
+    <p style="padding-top:30px">
+      <img src="./assets/gfx/rando.png" border="0" width="110" style="padding-right:15px; float:left">
+      <b>WAR! Agent 0:24 tricks</b>
+
+      <br>
+    <p>
+      As early as 2005, I theorized the possibility of performing more Phoenix boosts on WAR Agent to make 0:24 viable,
+      using this
+      technique to
+      get door TTs almost a second faster than Karl's 0:25, though without grabbing a Mauler, which is required for the
+      King shot.
+      However, boosts can be ineffective in short corridors, hard to perform in the corridor with "stretching walls",
+      and
+      the
+      randommness of Skedar
+      spawns makes finding an optimal spot to find a Mauler tricky. What combination of boosts and
+      obtaining a Mauler could make for a straightforward 0:24 strategy that one could commit to?</p>
+
+    <!--
+<br clear=all>
+
+<a name=mech></a>
+<h2> Mechanical </h2>
+
+<a name="out_of_body"></a>
+<img src="img/out_of_body_vibro.png" border="0" width=110 style="padding-right:15px; float:left">
+<b>Two-arm wearable vibrotactile flow display</b>
+
+<br />
+Vibrotactile flow refers to a continuously moving sensation of vibrotactile stimulation applied by a few actuators directly onto the skin or through a rigid medium. The perceptual basis of vibrotactile flow can be traced back to the well-known tactile illusions of <a href="https://doi.org/10.3758/BF03205902">apparent tactile motion</a> and <a href="https://ieeexplore.ieee.org/document/4081935">phantom sensation</a>. When the skin is directly stimulated by two separate vibrotactile actuators, a single vibrotactile sensation can be elicited midway between the two stimulation points. The position of the sensation can be moved between the two stimulation points by controlling the intensities of the two stimuli (amplitude inhibition) or the time gap between the stimuli (<a href="https://ieeexplore.ieee.org/document/4081935">temporal inhibition</a>). Various forms and location of the effects have been developed: in 1-D space (linear movement), 2-D (moving sensation on a plane), and even out-of-body (e.g., <a href="https://doi.org/10.1145/3173574.3173832">from left to right hand</a> through the air).
+
+<p>
+The students will design a bimanual wearable haptic display that contains an array of vibrotactile actuators that can be controlled independently. The intended form factor is a pair of stretchable gloves and sleeves, which contain multiple vibrotactile actuators for the wearable of each hand/arm.
+
+<p>
+This project is suitable for a team with basic mechatronics control experience and interest in applications of vibrotactile flows.  Further interest in conducting a perception study would be a plus.
+
+<p>
+Resources:  The students will be provided with the necessary haptic actuators and interface circuitry; hardware needed for integrating these into wearables will be purchased as necessary.
+
+
+<a name="haptic_armrest_of_body"></a>
+<p style="padding-top:30px">
+<img src="img/haptic_armrest.png" border="0" width=110 style="padding-right:15px; float:left">
+<b>Multimodal haptic armrest</b>
+
+<br />
+This project investigates simultaneous delivery of haptic stimuli from a heterogeneous set of actuators, embedded in an armrest, in order to generate rich and immersive feedback during a user's engagement with a visual display, e.g., during movie-watching, gaming, or video-based sports training.  The target haptic actuation methods include conventional vibrotactile, force-feedback (push-pull impact or gripping), thermal, and pneumatic. These could be exploited, for example, during the <a href="https://www.youtube.com/watch?v=A3f1Tvev010&feature=youtu.be&t=27">falling into the pit</a> scene in Jumanji by having the armrest convey physical sensations appropriate to the experience of gripping and tumbling, and rapidly reduce the delivered temperature, in order to augment the immersive nature of the viewing experience. The students will design a prototype armrest that embeds several independently controlled haptic interfaces to realize these objectives.
+
+<p>
+This project is suitable for a team with basic mechatronics control experience and electronics knowledge as necessary to design the driving circuit for the actuators. Ideal candidates will also have some coding skill and academic curiosity to learn more about haptics.
+
+<p>
+Resources:  The students will be provided with the necessary haptic actuators and interface circuitry for the actuator drivers.
+
+
+<a name="powereff"></a>
+<p style="padding-top:30px">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyKgGB5NOiquEfTACjGvRpRz6Hn571fprmuWIg90yRO1Sc7i4j" border="0" width=110 style="padding-right:15px; float:left">
+<b>Comparing Power Efficiency of Haptic Rendering Mechanisms</b>
+
+<br />
+Haptic effects are increasingly used in consumer products, whether to deliver notifications of incoming messages, communicate information to deaf-blind individuals through their hands, or enrich videogame experiences.  To produce these effects, various actuation technologies have been developed, including eccentric rotating mass, linear resonant actuators, and piezoelectric membranes, among others.  Despite extensive use of these devices in consumer technologies, there has been surprisingly little in the way of investigation and comparison of their power consumption, and how power relates to the perceived intensity of the stimuli they provide.  Complicating matters, such perception is dependent on frequency of the stimuli, the body location where the stimuli are delivered, and the size of the contact area.  The objective of this project is to develop a procedure and testbench that allows for such comparisons to be made, carry out a preliminary such test procedure, and publish the results as a valuable resource to the haptics community.
+
+<p>
+The student should be experienced in mechanical design as relevant to the test platform, and interested in experimental studies to characterize objective and perceptual measures of haptic devices.
+
+<p>
+  The student(s) should be experienced in mechanical design as relevant to the test platform, and interested in experimental studies to characterize objective and perceptual measures of haptic devices.
+
+<p>
+  Resources:  The students will be provided with haptic actuators and the requisite components for constructing the testing apparatus.  Much of the effort, however, will be preparatory in terms of the experiment and apparatus design.
+
+<a name="haptistrap"></a>
+<p style="padding-top:30px">
+<img src="http://srl.mcgill.ca/projects/img/haptistrap.png" border="0" width=110 style="padding-right:15px; float:left">
+<b>Skin-coupling of wearable devices and its impact on information exchange</b>
+
+<br />
+How firmly a wearable device, such as a smartwatch, is coupled to the body can change how its haptic effects are perceived and its ability to measure physiological signals. However, researchers and wearable-makers often rely on vague subjective coupling characteristics such as "strapped snugly" or "tight yet comfortable". Achieving consistent strap tightness across body sites and between users can be challenging, since even if strap tension is consistent, differences in limb circumference alter the resulting normal force under the wearable system in potentially unintuitive ways. Furthermore, when users must attach the devices, they may not use the same tightness each day. We have developed a system that aims to assist people in putting wearable devices on their body in a consistent manner.
+
+<p>
+This project involves the design and implementation of an experiment and its technical framework to conduct a simple characterization of the system's properties,
+carry out a user study evaluating the practical influence of the system on the user's ability to achieve more consistent skin coupling characteristics and the influence this has on haptic communication and physiological sensing efficacy, and 
+participate in the submission of an academic paper, which will include literature review, writing, and editing activities.
+
+<p>
+Deliverables include:
+<ul>
+  <li> Characterization of the system's properties</li>
+  <li> Technical infrastructure for running a user study</li>
+  <li> Analysis of results from a user study evaluating the practical influence of the system on the user's ability to achieve more consistent skin coupling characteristics and the influence this has on haptic communication and physiological sensing efficacy</li>
+  <li> Publication submission reporting on the characterization of the system's properties and results from the user study</li>
+</ul>
+
+This project is suitable for highly motivated and autonomous students
+from Mechanical, or Electrical and Computer Engineering. The ideal
+candidates would be familiar with or have interests in the design and
+execution of a user study and strong 3D CAD modelling skills.
+
+<p>
+Resources: The candidates will work from their personal computers.
+If they have access to a 3D printer, the laboratory will reimburse
+filament. Alternatively, university infrastructure will be used to 3D
+print the prototypes.
+
+
+<a name="hapticillusions"></a>
+<p style="padding-top:30px">
+<img src="https://alexholcombe.files.wordpress.com/2014/07/screen-shot-2014-07-16-at-5-53-11-pm.png" border="0" width=110 style="padding-right:15px; float:left">
+<b>3D Printed Tactile Illusions Design and Evaluation</b>
+
+<br />
+Appreciating a sensory illusion often requires you to experience it with your own senses. While this is generally trivial for visual and auditory illusions that can be rendered using commonly available hardware, haptic illusions often require complex mechanical systems. Vincent Hayward's, <a href="http://cim.mcgill.ca/~haptic/pub/VH-BRB-08.pdf">A brief taxonomy of tactile illusions and demonstrations that can be done in a hardware store</a> introduced simple and affordable DIY assemblies to make haptic illusions more accessible. However, we argue that the skills and materials required to fabricate the illusions he describes are often non-trivial, thereby depriving the paper's intended audience from experiencing and learning about these haptic illusions.
+Our research group has already created a set of 3D printed tactile illusions. This project involves the refinement of our existing models to strengthen illusion robustness, and the modelling of new 3D printed illusions drawn from the literature. An evaluation and validation of the robustness of the illusions will be carried out through a user study. The candidate may be asked to participate in the submission of an academic paper, which will include literature review, writing, and editing activities.
+
+<p>
+Deliverables include:
+<ul>
+<li>Refined existing illusions</li>
+<li>A set of new 3D printed tactile illusions</li>
+<li>Analysis of results from a user study evaluating the the robustness of the illusions</li>
+<li>Publication submission reporting on the illusions' 3D models and their evaluation</li>
+</ul>
+
+This project is suitable for a highly motivated and autonomous student from mechanical engineering or a closely related field, interested in haptics and familiar with, or having interests in the design and execution of a user study and with 3D CAD modelling.
+
+<p>
+Resources: The candidates will work from their personal computers
+If the student has access to a 3D printer, the laboratory will reimburse filament. Alternatively, university infrastructure will be used to 3D print the prototypes.
+
+
+<a name="affect"></a>
+<p style="padding-top:30px">
+<img src="img/var_fric_r.png" border="0" height=60 style="padding-right:15px; float:left">
+<b>Variable Friction Shoe Device for VR, gaming, training, and rehabilitation</b>
+<br />
+
+<p>
+We are exploring the use of shoe-based mechanisms to dynamically modulate the friction characteristics during foot-ground contact for applications in rehabilitation, virtual reality, and gaming experiences. The intent is to induce, under external control, the experience of unexpectedly encountering a slippery surface, such as ice, to simulate natural walking conditions in potentially hazardous conditions.
+
+<p>
+This project involves design, specification, prototyping and testing of a robust, third-generation variable-friction mechanism for installation in an athletic shoe that can provide these capabilities.
+The device must operate effectively during regular walking activity in everyday environments, without sustaining damage. A controller will be necessary to operate the mechanism such that it responds reasonably rapidly to an instruction to transition from a high-friction to low-friction setting, and vice versa.
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0957415817301034">Previous iterations</a> explored for this capability range from the use of teflon materials, various rolling mechanisms, including an array of tightly packed ball-transfer units, and one involving expulsion of air through a flexible skirt surrounding the shoe.
+After refining the mechanism, our intent is to carry out experiments to verify whether such artificially induced slips exhibit similar biomechanical properties to real-world slip events, and ultimately, incorporate such hardware into rehabilitation and training environments.
+
+<p>
+This project could be carried out by 2-4 members with strong mechanical design experience, ideally with a mechatronics background.
+
+<p>
+Resources: The necessary hardware components required for development of the mechanism will be purchased for the group, but access to machining resources will have to be discussed with the relevant university's lab managers.
+-->
+
+
+
+    </p>
+    <p>
+      <img src="../graphics/h_line.gif">
+      <br>
+      Last update: 1 January 2024
+
+    </p>
+  </div>
+
+
+</body>
+
+</html>
